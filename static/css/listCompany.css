@@ -211,6 +211,10 @@ table tbody tr td {
     width: 100%;
     height: 420px;
   }
+
+  .rb {
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 550px) {

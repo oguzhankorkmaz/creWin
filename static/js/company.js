@@ -109,3 +109,39 @@ $(document).ready(function () {
         }
     }
 })
+
+$(".pagination> li:nth-child(1)").click(function () {
+    $(this).addClass("active")
+    $(".pagination> li:nth-child(2)").removeClass("active");
+    $(".pagination> li:nth-child(3)").removeClass("active");
+    $(".pagination> li:nth-child(4)").removeClass("active");
+    $(".pagination> li:nth-child(5)").removeClass("active");
+})
+$(".pagination> li:nth-child(2)").click(function () {
+    $(this).addClass("active")
+    $(".pagination> li:nth-child(1)").removeClass("active");
+    $(".pagination> li:nth-child(3)").removeClass("active");
+    $(".pagination> li:nth-child(4)").removeClass("active");
+    $(".pagination> li:nth-child(5)").removeClass("active");
+})
+$(".pagination> li:nth-child(3)").click(function () {
+    $(this).addClass("active")
+    $(".pagination> li:nth-child(1)").removeClass("active");
+    $(".pagination> li:nth-child(2)").removeClass("active");
+    $(".pagination> li:nth-child(4)").removeClass("active");
+    $(".pagination> li:nth-child(5)").removeClass("active");
+})
+$(".pagination> li:nth-child(4)").click(function () {
+    $(this).addClass("active")
+    $(".pagination> li:nth-child(1)").removeClass("active");
+    $(".pagination> li:nth-child(2)").removeClass("active");
+    $(".pagination> li:nth-child(3)").removeClass("active");
+    $(".pagination> li:nth-child(5)").removeClass("active");
+})
+$(".pagination> li:nth-child(5)").click(function () {
+    $(this).addClass("active")
+    $(".pagination> li:nth-child(1)").removeClass("active");
+    $(".pagination> li:nth-child(2)").removeClass("active");
+    $(".pagination> li:nth-child(3)").removeClass("active");
+    $(".pagination> li:nth-child(4)").removeClass("active");
+})
