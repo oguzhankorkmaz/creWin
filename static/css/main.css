@@ -1,0 +1,186 @@
+.nav-temp {
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+}
+
+.navbar-brand {
+  width: 20%;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.nav-link {
+  color: gray;
+  text-transform: uppercase;
+}
+
+.nav-temp > .container > .nav {
+  flex-flow: row;
+}
+
+.r-nav {
+  /* width: 25%;
+  height: 100px; */
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 35px;
+  position: relative;
+}
+
+.r-nav i {
+  font-weight: 900;
+  font-size: x-large;
+  text-align: center;
+  justify-content: center;
+  color: black;
+}
+
+.r-nav:active {
+  background-color: gray;
+}
+
+.r-nav:active i {
+  color: white;
+}
+
+.nav-temp > .container > .nav {
+  display: flex;
+}
+
+.dropdown-menu {
+  width: 100%;
+  text-align: center;
+}
+
+.txt-white {
+  color: white;
+}
+
+.md-padding {
+  padding: 100px;
+}
+
+.white-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  filter: opacity(0.5);
+}
+
+.searchGroup {
+  display: flex;
+}
+
+.vesselbtn {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 0.4rem 0.7rem;
+  font-size: 12pt;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vesselbtn:hover {
+  background-color: #2398ab;
+  color: white;
+}
+
+.vesselbtn:active {
+  background-color: #00848c;
+  border-color: #00848c;
+}
+
+.vbtn-sea {
+  border-color: #2398ab;
+}
+
+.vesselinput {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.4rem 0.7rem;
+  font-size: 12pt;
+  width: 100%;
+}
+
+.title {
+  font-size: 3.5vw;
+  font-family: "Abel", sans-serif;
+}
+
+.subTitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5vw;
+  color: #00dfc8;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 6.5vw;
+  }
+
+  .subTitle {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .md-padding {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-temp {
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    width: 35%;
+  }
+
+  .r-nav {
+    display: block;
+  }
+
+  .nav-temp > .container > .nav {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 0;
+  }
+
+  /* .nav-temp > .container > .nav > .nav-item {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 688px) {
+  .title {
+    font-size: 8.5vw;
+  }
+
+  .subTitle {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .md-padding {
+    padding: 70px 0 70px;
+  }
+}

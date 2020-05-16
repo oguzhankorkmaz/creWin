@@ -1,0 +1,250 @@
+.header {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.ch1 {
+  background-image: url("../img/c1.jpg");
+}
+
+.ch2 {
+  background-image: url("../img/c2.jpg");
+}
+
+.ch3 {
+  background-image: url("../img/c3.jpg");
+}
+
+.wh {
+  position: absolute;
+  top: 57%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 40%;
+  height: auto;
+  background-color: white;
+  filter: opacity(0.9);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 38px 38px 1px #00dfc8;
+  padding: 40px;
+}
+
+.wh h2 {
+  font-family: "Fugaz One", cursive;
+  color: #2398ab;
+  font-size: calc(2rem + 2.3vw);
+}
+
+.wh p {
+  font-family: "Dancing Script", cursive;
+  font-size: cacl(1rem + 0.4vw);
+}
+
+.addVesselbtn {
+  width: auto;
+  height: auto;
+  color: #2398ab;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.vesselTemp {
+  width: 100%;
+}
+
+.vesselTypeArea {
+  width: 100%;
+}
+
+.vesselTypeArea p {
+}
+
+.vesselTypeArea-btnGroup {
+  display: flex;
+}
+
+.vesselTypeArea-btnGroup button {
+  margin: 0 5px;
+}
+
+.rb {
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.vesselSearch {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  font-size: 1rem;
+  border-color: #2398ab;
+  background-color: #2398ab;
+  color: white;
+}
+
+.lc {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+}
+
+.lc-img {
+  width: 70%;
+  height: 600px;
+}
+
+.lc-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.lc-content {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  filter: opacity(0.9);
+  top: 50%;
+  /* right: 0; */
+  transform: translateY(-50%);
+  box-shadow: 20px 20px 12px rgba(72, 77, 76, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.lc-c1,
+.lc-c2,
+.lc-c3 {
+  right: -100px;
+  transition: all 1.5s;
+}
+
+.lc-content p {
+  font-size: 16pt;
+  font-family: "Comfortaa", cursive;
+}
+
+.lc-content-table {
+  width: 100%;
+  display: flex;
+}
+
+.table {
+  width: 100%;
+}
+
+table tbody tr th {
+  background-color: #414042;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 38%;
+}
+
+table tbody tr td {
+  text-align: center;
+}
+
+.vsed {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .wh {
+    width: 60%;
+  }
+
+  .lc {
+    height: 995px;
+  }
+
+  .lc-img {
+    width: 100%;
+    height: 550px;
+  }
+
+  .lc-content {
+    position: relative;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: unset;
+    right: unset;
+    transform: none;
+    bottom: 205px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wh {
+    width: 75%;
+  }
+  .vesselTypeArea-btnGroup {
+    flex-direction: column;
+  }
+
+  .lc {
+    margin: unset;
+    padding: unset;
+    height: 860px;
+  }
+
+  .lc-img {
+    width: 100%;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wh {
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  .vesselSearch {
+    width: 95%;
+  }
+
+  .lc {
+    height: unset;
+  }
+
+  .lc-img {
+    height: 335px;
+  }
+
+  .lc-content {
+    bottom: unset;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .vesselTypeArea {
+    width: 98%;
+  }
+
+  .lc {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .lc-img {
+    height: 260px;
+  }
+}
