@@ -159,6 +159,13 @@ table tbody tr td {
   width: 100%;
 }
 
+.btnEdit {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 1024px) {
   .wh {
     width: 60%;
